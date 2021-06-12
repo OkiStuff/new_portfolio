@@ -22,6 +22,7 @@
 </script>
 
 
+
 <header>
 	<a href="/" class="link_home"><h1>Frankie A.</h1></a>
 	<p>Game Engine Developer, (soon to be) Student Pilot</p>
@@ -60,7 +61,7 @@
 	}
 
 	:root {
-		background-color: darkslategrey;
+		background-color: #2f4f4f;
 	}
 
 	* {
