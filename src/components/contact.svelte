@@ -14,33 +14,33 @@
         font-weight: bold;
         font-size: larger;
     }
-
+    
     * {
         color: lightgray;
     }
-
+    
     .sv_center {
         text-align: center;
     }
-
-
-
-	.link:link {
+    
+    
+    
+    .link:link {
         font-style: italic;
-		color: lightgrey;
-	}
-	.link:visited {
-		color: lightgrey;
-	}
-	.link:hover {
-		color: lightsteelblue;
-		font-style: italic;
-		-webkit-transition: color 200ms linear;
+        color: lightgrey;
+    }
+    .link:visited {
+        color: lightgrey;
+    }
+    .link:hover {
+        color: lightsteelblue;
+        font-style: italic;
+        -webkit-transition: color 200ms linear;
         -ms-transition: color 200ms linear;
         transition: color 200ms linear;
-
-	}
-	.link:active {
-		color: lightgrey;
-	}
+        
+    }
+    .link:active {
+        color: lightgrey;
+    }
 </style>

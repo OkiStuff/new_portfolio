@@ -1,5 +1,5 @@
 <projects>
-	<br>
+    <br>
     <h1>My Favorite Projects</h1>
     <div class="box">
         <a href="https://github.com/PikoStudios/Muzzle" class="link"><h2>Muzzle</h2></a>
@@ -22,13 +22,13 @@
 
 
 <style>
-
-
-	projects {
-		color: lightgray;
+    
+    
+    projects {
+        color: lightgray;
         text-align: center;
-	}
-
+    }
+    
     .box {
         text-align: left;
         position: relative;
@@ -40,25 +40,25 @@
         border: 1px solid black;
         width: max-content;
     }
-
+    
     .link:link {
-		color: lightgrey;
-	}
-	.link:visited {
-		color: lightgrey;
-	}
-	.link:hover {
-		color: lightgrey;
-	}
-	.link:active {
-		color: lightgrey;
-	}
-
+        color: lightgrey;
+    }
+    .link:visited {
+        color: lightgrey;
+    }
+    .link:hover {
+        color: lightgrey;
+    }
+    .link:active {
+        color: lightgrey;
+    }
+    
     .box:hover {
         border-color: white;
         -webkit-transition: border-color 200ms linear;
         -ms-transition: border-color 200ms linear;
         transition: border-color 200ms linear;
     }
-
+    
 </style>

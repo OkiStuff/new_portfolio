@@ -12,13 +12,13 @@
 
 
 <style>
-
+	
 	links {
 		color: lightgray;
 	}
-
-
-
+	
+	
+	
 	.link:link {
 		color: lightgrey;
 	}
@@ -29,13 +29,13 @@
 		color: lightsteelblue;
 		font-style: italic;
 		-webkit-transition: color 200ms linear;
-        -ms-transition: color 200ms linear;
-        transition: color 200ms linear;
-
+		-ms-transition: color 200ms linear;
+		transition: color 200ms linear;
+		
 	}
 	.link:active {
 		color: lightgrey;
 	}
-
-
+	
+	
 </style>
