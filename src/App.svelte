@@ -22,10 +22,9 @@
 </script>
 
 
-
 <header>
 	<a href="/" class="link_home"><h1>Frankie A.</h1></a>
-	<p>Game Engine Developer, (soon to be) Student Pilot</p>
+	<p>Game Engine Developer, Student Pilot</p>
 </header>
 
 
@@ -33,7 +32,7 @@
 
 <svelte:component this={page} />
 
-<img src="https://media.discordapp.net/attachments/753260535994253413/851566271740772392/GitHub-Mark-Light-32px.png" alt="github" class="footer" on:click={() => redirect("https://github.com/okistuff")}>
+<img src="./github.png" alt="github" class="footer" on:click={() => redirect("https://github.com/okistuff")}>
 
 
 <style>
@@ -81,4 +80,5 @@
 	.link_home:active {
 		color: white;
 	}
+
 </style>

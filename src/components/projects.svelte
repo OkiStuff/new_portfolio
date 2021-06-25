@@ -1,4 +1,4 @@
-<projects>
+<div id="projects">
     <br>
     <h1>My Favorite Projects</h1>
     <div class="box">
@@ -17,14 +17,14 @@
         <a href="https://github.com/OkiStuff/T-RexMono" class="link"><h2>rl_singleHeaders</h2></a>
         <p>Single Header libraries made in C99 that give extra functionality <br />to the Raylib Game Framework</p>
     </div>
-</projects>
+</div>
 
 
 
 <style>
     
     
-    projects {
+    #projects {
         color: lightgray;
         text-align: center;
     }
