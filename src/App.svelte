@@ -68,7 +68,7 @@
 	* {
 		margin: 0;
 		padding: 0;
-		font-family: 'Fira Code', monospace;
+		/*font-family: 'Fira Code', monospace;*/
 	}
 	
 	.link_home:link {
