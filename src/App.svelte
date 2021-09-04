@@ -20,7 +20,9 @@
 		window.location.href = url;
 	};
 </script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 
 <header>
 	<a href="/" class="link_home"><h1>Frankie A.</h1></a>
@@ -66,6 +68,7 @@
 	* {
 		margin: 0;
 		padding: 0;
+		font-family: 'Fira Code', monospace;
 	}
 	
 	.link_home:link {

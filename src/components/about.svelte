@@ -1,7 +1,7 @@
 <script>
 	var age;
 	var year = new Date().getFullYear();
-	age = year - 2007 - 1;
+	age = year - 2007;
 </script>
 
 <div id="about">

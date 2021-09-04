@@ -17,6 +17,11 @@
 		color: lightgray;
 	}
 	
+	* {
+		margin: 0;
+		padding: 1px;
+		font-family: 'Fira Code', monospace;
+	}
 	
 	
 	.link:link {
