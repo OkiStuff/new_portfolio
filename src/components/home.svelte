@@ -20,7 +20,7 @@
 	* {
 		margin: 0;
 		padding: 1px;
-		font-family: 'Fira Code', monospace;
+		/*font-family: 'Fira Code', monospace;*/
 	}
 	
 	
