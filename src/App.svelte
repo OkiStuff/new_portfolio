@@ -7,18 +7,19 @@
 	import contact from "./components/contact.svelte"
 	
 	let page;
+
+	const redirect = (url) => {
+		window.location.href = url;
+	};
 	
 	router('/', () => page = home);
 	router('/projects', () => page = projects);
 	router('/skills', () => page = skills);
 	router('/about', () => page = about);
 	router('/contact', () => page = contact);
+	router('/cv', () => redirect("/cv.pdf"));
 	
 	router.start();
-	
-	const redirect = (url) => {
-		window.location.href = url;
-	};
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
